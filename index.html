@@ -5,15 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Avukatlık Bürosu</title>
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 <body>
   <header>
     <div class="container">
-      <div class="logo">  
-        Avukatlık Bürosu
-      </div>
+      <div class="logo">Avukatlık Bürosu</div>
+
+      <button class="menu-toggle" aria-label="Menüyü aç/kapa">
+        <i class="fas fa-bars"></i>
+      </button>
+
       <nav>
         <ul>
           <li><a href="#">Anasayfa</a></li>
@@ -24,39 +26,34 @@
       </nav>
     </div>
   </header>
-<section class="hero-with-cards">
-  <div class="hero-content">
-    <h1>Hukuk & Danışmanlık</h1>
-    <p> Şanlıurfa merkezli olarak her alanda hukuk desteği.</p>
- 
-  </div>
 
-  <div class="quick-services container">
-    <div class="qs-card">
-      <i class="fas fa-gavel"></i>
-      <h4>Dava Takibi</h4>
-      <p>Dava takibi, yargılama makamlarına intikal etmiş hukuki uyuşmazlıkların çözümü için gerekli olan tüm iş ve işlemlerin yapılmasını kapsar.</p>
+  <section class="hero-with-cards">
+    <div class="hero-content">
+      <h1>Hukuk & Danışmanlık</h1>
+      <p>Şanlıurfa merkezli olarak her alanda hukuk desteği.</p>
     </div>
-    <div class="qs-card">
-       <i class="fas fa-user-tie"></i>
 
-      <h4>Hukuki Danışmanlık</h4>
-      <p>Hukuki danışmanlık, hukuki konularda bilgi ve tecrübe sahibi bir uzmanın, bir kişinin veya kurumun hukuki haklarını ve menfaatlerini koruması için yaptığı hizmettir.</p>
+    <div class="quick-services container">
+      <div class="qs-card">
+        <i class="fas fa-gavel"></i>
+        <h4>Dava Takibi</h4>
+        <p>Dava takibi, yargılama makamlarına intikal etmiş hukuki uyuşmazlıkların çözümü için gerekli olan tüm iş ve işlemlerin yapılmasını kapsar.</p>
+      </div>
+      <div class="qs-card">
+        <i class="fas fa-user-tie"></i>
+        <h4>Hukuki Danışmanlık</h4>
+        <p>Hukuki danışmanlık, hukuki konularda bilgi ve tecrübe sahibi bir uzmanın, bir kişinin veya kurumun hukuki haklarını ve menfaatlerini koruması için yaptığı hizmettir.</p>
+      </div>
+      <div class="qs-card">
+        <i class="fas fa-handshake"></i>
+        <h4>Arabuluculuk</h4>
+        <p>Arabuluculuk, tarafların kendi aralarında anlaşma sağlayarak uyuşmazlıklarını çözmelerine yardımcı olan tarafsız bir üçüncü kişinin katılımıyla yürütülen bir uyuşmazlık çözüm yöntemidir.</p>
+      </div>
     </div>
-    <div class="qs-card">
-      <i class="fas fa-handshake"></i>
-
-      <h4>Arabuluculuk</h4>
-      <p>Arabuluculuk, tarafların kendi aralarında anlaşma sağlayarak uyuşmazlıklarını çözmelerine yardımcı olan tarafsız bir üçüncü kişinin katılımıyla yürütülen bir uyuşmazlık çözüm yöntemidir.</p>
-    </div>
-    
-  </div>
-</section>
-
+  </section>
 
   <section id="hakkimizda" class="about">
     <div class="container">
-        
       <h2>Hakkımızda</h2>
       <div class="about-content">
         <p>
@@ -83,31 +80,41 @@
   <section id="iletisim" class="contact">
     <div class="container">
       <h2>İletişim</h2>
-  <div class="info-boxes">
-      <div class="info-box">
-        <i class="fas fa-map-marker-alt"></i>
-        <p><strong>Adres:</strong><br> Atatürk Bulvarı No:123, Şanlıurfa Merkez</p>
-      </div>
-      <div class="info-box">
-        <i class="fas fa-phone-alt"></i>
-        <p><strong>Telefon:</strong><br> 0 (534) 123 45 67</p>
-      </div>
-      <div class="info-box">
-        <i class="fas fa-envelope"></i>
-        <p><strong>E-posta:</strong><br> info@hukukburo.com</p>
-      </div>
-      <div class="info-box">
-        <i class="fas fa-clock"></i>
-        <p><strong>Çalışma Saatleri:</strong><br> Hafta içi 09:00 - 18:00</p>
+      <div class="info-boxes">
+        <div class="info-box">
+          <i class="fas fa-map-marker-alt"></i>
+          <p><strong>Adres:</strong><br> Atatürk Bulvarı No:123, Şanlıurfa Merkez</p>
+        </div>
+        <div class="info-box">
+          <i class="fas fa-phone-alt"></i>
+          <p><strong>Telefon:</strong><br> 0 (534) 123 45 67</p>
+        </div>
+        <div class="info-box">
+          <i class="fas fa-envelope"></i>
+          <p><strong>E-posta:</strong><br> info@hukukburo.com</p>
+        </div>
+        <div class="info-box">
+          <i class="fas fa-clock"></i>
+          <p><strong>Çalışma Saatleri:</strong><br> Hafta içi 09:00 - 18:00</p>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
   <footer>
     <div class="container">
       <p>&copy; 2025 Avukatlık Bürosu. Tüm hakları saklıdır.</p>
     </div>
   </footer>
+
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navUl = document.querySelector('nav ul');
+
+    menuToggle.addEventListener('click', () => {
+      navUl.classList.toggle('show');
+    });
+  </script>
 </body>
 </html>
+
