@@ -87,6 +87,31 @@ nav ul li a:hover {
   z-index: 2;
   position: relative;
 }
+.hero-content h1 {
+  font-size: 46px; /* Daha büyük başlık */
+  margin-bottom: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.hero-content p {
+  font-size: 22px; 
+  margin-bottom: 30px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 36px;
+  }
+
+  .hero-content p {
+    font-size: 18px;
+  }
+}
+
 
 .quick-services {
   position: absolute;
@@ -339,4 +364,17 @@ footer {
 .about-section {
   padding-top: 110px; /* Hakkımızda kısmının üstüne boşluk için */
 }
+.wp-icon {
+  font-size: 24px;
+  color: white;
+  background-color: #25D366; /* WhatsApp yeşili */
+  padding: 10px;
+  border-radius: 50%;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
 
+.wp-icon:hover {
+  background-color: #1ebd5a;
+}
