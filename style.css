@@ -106,9 +106,25 @@ nav ul li a:hover {
     font-size: 18px;
     padding: 10px 20px;
   }
+
+  /* İşte burada mobilde quick-services düzenlemesi */
+  .quick-services {
+    position: static;  /* absolute kaldır */
+    transform: none;   /* transform kaldır */
+    flex-wrap: wrap;   /* alt alta sarması için */
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0 0 0;
+  }
+
+  .qs-card {
+    width: 90%;
+    max-width: 300px;
+    margin: 10px 0;
+  }
 }
 
-/* Diğer stiller aynı kalabilir, aşağıya ekleyebilirsin */
+/* Diğer CSS'ler */
 
 .hero-with-cards {
   position: relative;
@@ -269,4 +285,3 @@ footer {
   padding: 20px 0;
   font-size: 14px;
 }
-
