@@ -22,6 +22,7 @@ header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative; /* Menü toggle için */
 }
 
 .logo {
@@ -54,7 +55,6 @@ nav ul li a:hover {
   color: #3498db;
 }
 
-
 .menu-toggle {
   display: none;
   font-size: 28px;
@@ -63,15 +63,22 @@ nav ul li a:hover {
   color: white;
   cursor: pointer;
 }
-.menu-toggle i {
-  margin-left: auto;   /* İkonu sağa it */
-  margin-right: 0;
-  display: block;
-}
-
-
 
 @media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 28px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    z-index: 1100;
+  }
+
   nav ul {
     display: none;
     flex-direction: column;
@@ -99,11 +106,9 @@ nav ul li a:hover {
     font-size: 18px;
     padding: 10px 20px;
   }
-
-  .menu-toggle {
-    display: block;
-  }
 }
+
+/* Diğer stiller aynı kalabilir, aşağıya ekleyebilirsin */
 
 .hero-with-cards {
   position: relative;
